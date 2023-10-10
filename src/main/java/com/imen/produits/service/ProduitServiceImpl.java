@@ -1,7 +1,8 @@
-package com.imen.produits.produits.service;
+package com.imen.produits.service;
 
 
 import java.util.List;
+
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import com.imen.produits.entities.Categorie;
 import com.imen.produits.entities.Produit;
+import com.imen.produits.service.ProduitService;
 import com.imen.produits.repos.ProduitRepository;
 @Service
 public class ProduitServiceImpl implements ProduitService {
